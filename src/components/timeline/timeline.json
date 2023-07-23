@@ -1,18 +1,19 @@
 {
   "collectionName": "components_timeline_timelines",
   "info": {
-    "displayName": "Timeline"
+    "displayName": "Timeline",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "from": {
       "type": "string",
-      "regex": "^[A-Z]{3} \\d{4}$",
+      "regex": "^([A-Z]{3} \\d{4}|PRESENT)$",
       "required": true
     },
     "to": {
       "type": "string",
-      "regex": "^[A-Z]{3} \\d{4}$",
+      "regex": "^([A-Z]{3} \\d{4}|PRESENT)$",
       "required": true
     },
     "title": {

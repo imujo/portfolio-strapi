@@ -27,6 +27,10 @@
     },
     "href": {
       "type": "string"
+    },
+    "rank": {
+      "type": "integer",
+      "required": true
     }
   }
 }

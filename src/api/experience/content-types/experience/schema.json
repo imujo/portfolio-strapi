@@ -4,7 +4,8 @@
   "info": {
     "singularName": "experience",
     "pluralName": "experiences",
-    "displayName": "Experience"
+    "displayName": "Experience",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,11 @@
       "type": "component",
       "repeatable": true,
       "component": "timeline.timeline"
+    },
+    "rank": {
+      "type": "integer",
+      "required": true,
+      "unique": false
     }
   }
 }
